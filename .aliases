@@ -53,3 +53,8 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "$method"="lwp-request -m '$method'"
 done
 
+
+# Ruby on Rails 
+alias migrate='rake db:migrate; rake db:migrate RAILS_ENV=test'
+alias rollback='rake db:rollback; rake db:rollback RAILS_ENV=test'
+alias rc='. .powenv; rails c'
