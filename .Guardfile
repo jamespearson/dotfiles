@@ -1,6 +1,12 @@
 # Global Guardfile (more info at https://github.com/guard/guard#readme)
 
 
+if Gem::Specification.find_all_by_name('guard-annotate').any?
+	guard 'annotate', :routes => false do
+  		watch( 'db/schema.rb' )
+	end
+end
+
 # If we are using Guard Bundler to automaticall add / remove gems.
 if Gem::Specification.find_all_by_name('guard-bundler').any?
   guard 'bundler' do
