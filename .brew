@@ -71,7 +71,6 @@ installcask iterm2
 installcask jewelrybox
 installcask little-snitch
 installcask livereload
-installcask macvim
 installcask miro-video-converter
 installcask postgres
 installcask rubymine
@@ -80,11 +79,9 @@ installcask spotify
 installcask steam
 installcask sublime-text
 installcask the-unarchiver
-installcask tor-browser
 installcask tower
 installcask transmission
 installcask transmit
-installcask ukelele
 installcask virtualbox
 installcask vlc
 installcask webstorm
