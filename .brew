@@ -56,22 +56,38 @@ function installcask() {
 
 installcask airfoil
 installcask alfred
+installcask bartender
 installcask dropbox
+installcask evernote
+installcask fantastical
+installcask firefox
+installcask firefox-aurora
 installcask google-chrome
 installcask google-chrome-canary
+installcask google-drive
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
+installcask jewelrybox
+#installcask little-snitch
+installcask livereload
 installcask macvim
 installcask miro-video-converter
+installcask postgres
+installcask rubymine
+installcask skype
 installcask spotify
 installcask sublime-text
 installcask the-unarchiver
 installcask tor-browser
+installcask tower
 installcask transmission
+installcask transmit
 installcask ukelele
 installcask virtualbox
 installcask vlc
+installcask webstorm
+installcask xtra-finder
 
 # Remove outdated versions from the cellar
 brew cleanup
