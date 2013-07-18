@@ -88,5 +88,7 @@ installcask vlc
 installcask webstorm
 installcask xtra-finder
 
+#ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+
 # Remove outdated versions from the cellar
 brew cleanup
