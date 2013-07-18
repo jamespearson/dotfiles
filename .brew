@@ -69,7 +69,7 @@ installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask jewelrybox
-#installcask little-snitch
+installcask little-snitch
 installcask livereload
 installcask macvim
 installcask miro-video-converter
