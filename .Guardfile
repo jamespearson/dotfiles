@@ -26,6 +26,14 @@ if Gem::Specification.find_all_by_name('guard-livereload').any?
   end
 end
 
+if Gem::Specification.find_all_by_name('guard-livereload').any?
+  guard 'migrate' do
+    watch(%r{^db/migrate/(\d+).+\.rb})
+    watch('db/seeds.rb')
+  end
+end
+
+
 # If we are using rSpec...
 if Gem::Specification.find_all_by_name('guard-rspec').any?
 
