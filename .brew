@@ -95,6 +95,8 @@ installcask vlc
 installcask webstorm
 installcask xtra-finder
 
+echo "DON'T FORGET: Add '/opt/homebrew-cask/Caskroom' To Alfred's search scope (Settings > Features > Default Results"
+
 #ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
 
 # Remove outdated versions from the cellar
