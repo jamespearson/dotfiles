@@ -77,6 +77,8 @@ installcask jewelrybox
 installcask little-snitch
 installcask livereload
 installcask miro-video-converter
+installcask mysql-workbench
+installcask onepassword
 installcask postgres
 installcask rubymine
 installcask skype
