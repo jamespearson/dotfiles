@@ -82,7 +82,7 @@ installcask rubymine
 installcask skype
 installcask spotify
 installcask steam
-#installcask strongvpn
+installcask strongvpn
 installcask sublime-text
 installcask the-unarchiver
 installcask tower
