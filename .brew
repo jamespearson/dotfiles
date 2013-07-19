@@ -9,6 +9,7 @@ brew upgrade
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
 echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
+
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
 # Install Bash 4
@@ -22,7 +23,21 @@ brew install wget --enable-iri
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
-brew install php54
+
+brew install mysql
+brew install php54 --with-mysql
+chmod -R ug+w /usr/local/Cellar/php54/5.4.16/lib/php
+
+brew install php54-mcrypt
+brew install php54-apc
+brew install php54-xdebug
+
+#Finish MySQL Setup
+mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
+mkdir -p ~/Library/LaunchAgents
+cp /usr/local/Cellar/mysql/5.5.27/homebrew.mxcl.mysql.plist ~/Library/LaunchAgents/
+launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+launchctl start homebrew.mxcl.mysql
 
 
 # Install other useful binaries
