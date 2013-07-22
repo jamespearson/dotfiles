@@ -80,6 +80,7 @@ installcask jewelrybox
 installcask little-snitch
 installcask livereload
 installcask miro-video-converter
+installcask mou
 installcask mysql-workbench
 installcask onepassword
 installcask postgres
