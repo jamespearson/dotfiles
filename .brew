@@ -84,6 +84,7 @@ installcask mou
 installcask mysql-workbench
 installcask onepassword
 installcask postgres
+installcask querious
 installcask rubymine
 installcask skype
 installcask spotify
