@@ -50,6 +50,8 @@ brew install ack
 brew install git
 brew install imagemagick
 
+brew install android-sdk
+
 brew install node
 
 # Install native apps
