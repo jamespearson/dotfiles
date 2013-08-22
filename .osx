@@ -32,7 +32,7 @@ defaults write com.apple.menuextra.battery ShowTime -string "YES"
 defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu" "/System/Library/CoreServices/Menu Extras/Battery.menu" "/System/Library/CoreServices/Menu Extras/Clock.menu"
 
 # Set highlight color to hot pink
-#defaults write NSGlobalDomain AppleHighlightColor -string '0.964705881 0.376470588 0.670588234'
+defaults write NSGlobalDomain AppleHighlightColor -string '0.913700 0.721600 1.000000'
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
