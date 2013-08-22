@@ -42,6 +42,8 @@ cp /usr/local/Cellar/mysql/5.5.27/homebrew.mxcl.mysql.plist ~/Library/LaunchAgen
 launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
 launchctl start homebrew.mxcl.mysql
 
+brew install sshuttle # SSH Tunneling
+
 
 # Install other useful binaries
 brew install ack
