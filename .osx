@@ -532,6 +532,13 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 ###############################################################################
+# Other 					                                                  #
+###############################################################################
+
+# Hide the Spotlight Icon
+chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
