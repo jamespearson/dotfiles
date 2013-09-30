@@ -2,9 +2,9 @@
 
 
 if Gem::Specification.find_all_by_name('guard-annotate').any?
-	guard 'annotate', :routes => false do
-  		watch( 'db/schema.rb' )
-	end
+  guard 'annotate', :routes => false do
+      watch( 'db/schema.rb' )
+  end
 end
 
 # If we are using Guard Bundler to automaticall add / remove gems.
@@ -41,6 +41,7 @@ if Gem::Specification.find_all_by_name('guard-rspec').any?
     watch(%r{^spec/.+_spec\.rb$})
     watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
     watch('spec/spec_helper.rb')  { "spec" }
+    watch(%r{^spec/factories/(.+)\.rb$})
 
     # Rails example
     watch(%r{^app/(.+)\.rb$})                           { |m| "spec/#{m[1]}_spec.rb" }
