@@ -60,3 +60,7 @@ alias rollback='rake db:rollback; rake db:rollback RAILS_ENV=test'
 alias rc='. .powenv; rails c'
 alias rg='. .powenv; bundle exec guard'
 alias rr='. .powenv; rake'
+
+alias migrate='rake db:migrate; rake db:migrate RAILS_ENV=test'
+alias hc='. .heroku run rails c'
+alias hr='. .heroku run rake'
