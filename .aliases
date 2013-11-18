@@ -61,6 +61,5 @@ alias rc='. .powenv; rails c'
 alias rg='. .powenv; bundle exec guard'
 alias rr='. .powenv; rake'
 
-alias migrate='rake db:migrate; rake db:migrate RAILS_ENV=test'
-alias hrc='.heroku run rails c'
-alias hrr='.heroku run rake'
+alias hrc='heroku run rails c'
+alias hrr='heroku run rake'
