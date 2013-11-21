@@ -81,6 +81,7 @@ installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask jewelrybox
+installcask keka
 installcask little-snitch
 installcask livereload
 installcask miro-video-converter
@@ -94,7 +95,6 @@ installcask spotify
 installcask steam
 installcask strongvpn
 installcask sublime-text
-installcask the-unarchiver
 installcask tower
 installcask transmission
 installcask transmit
