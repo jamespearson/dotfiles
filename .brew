@@ -34,6 +34,13 @@ brew install imagemagick
 
 brew install android-sdk
 
+brew install redis
+
+# mkdir -p ~/Library/LaunchAgents
+#    cp /usr/local/Cellar/redis/2.4.8/homebrew.mxcl.redis.plist ~/Library/LaunchAgents/
+#    launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+
+
 brew install node
 
 # Install native apps
