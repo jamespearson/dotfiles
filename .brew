@@ -57,7 +57,6 @@ installcask fantastical
 installcask firefox
 installcask firefox-aurora
 installcask google-chrome
-installcask google-chrome-canary
 installcask google-drive
 installcask imagealpha
 installcask imageoptim
