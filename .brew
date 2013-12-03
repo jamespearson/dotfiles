@@ -57,7 +57,9 @@ installcask fantastical
 installcask firefox
 installcask firefox-aurora
 installcask google-chrome
+installcask google-hangouts
 installcask google-drive
+installcask hipchat
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
