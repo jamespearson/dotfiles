@@ -22,25 +22,9 @@ brew install wget --enable-iri
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
-brew tap josegonzalez/homebrew-php
 
 # Some basics to make PHP install easier: https://github.com/josegonzalez/homebrew-php
 brew install freetype jpeg libpng gd zlib
-
-brew install mysql
-brew install php54 --with-mysql
-chmod -R ug+w /usr/local/Cellar/php54/5.4.16/lib/php
-
-brew install php54-mcrypt
-brew install php54-apc
-brew install php54-xdebug
-
-#Finish MySQL Setup
-mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp
-mkdir -p ~/Library/LaunchAgents
-cp /usr/local/Cellar/mysql/5.5.27/homebrew.mxcl.mysql.plist ~/Library/LaunchAgents/
-launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
-launchctl start homebrew.mxcl.mysql
 
 brew install sshuttle # SSH Tunneling
 
