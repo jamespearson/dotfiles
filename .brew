@@ -108,6 +108,12 @@ installcask xtra-finder
 
 echo "DON'T FORGET: Add '/opt/homebrew-cask/Caskroom' To Alfred's search scope (Settings > Features > Default Results"
 
+# QL Plugins
+brew update; brew upgrade brew-cask
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
+
+defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
+
 # Link Sublime 2 in terminal
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
 
