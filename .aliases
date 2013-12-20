@@ -63,3 +63,8 @@ alias rr='. .powenv; rake'
 
 alias hrc='heroku run rails c'
 alias hrr='heroku run rake'
+
+
+alias hrcs='heroku run rails c --remote staging'
+alias hrcp='heroku run rails c --remote production'
+
