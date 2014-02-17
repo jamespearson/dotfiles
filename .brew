@@ -60,6 +60,8 @@ brew install node
 
 # Install native apps
 brew tap phinze/homebrew-cask
+brew tap jimbojsb/launchrocket
+
 brew install brew-cask
 
 function installcask() {
@@ -106,6 +108,8 @@ installcask virtualbox
 installcask vlc
 installcask webstorm
 installcask xtra-finder
+
+brew cask install launchrocket
 
 echo "DON'T FORGET: Add '/opt/homebrew-cask/Caskroom' To Alfred's search scope (Settings > Features > Default Results"
 
