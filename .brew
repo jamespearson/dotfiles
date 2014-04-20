@@ -72,7 +72,6 @@ function installcask() {
 	fi
 }
 
-installcask airfoil
 installcask alfred
 installcask anvil
 installcask bartender
