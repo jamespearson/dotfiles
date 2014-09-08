@@ -68,3 +68,4 @@ alias hrr='heroku run rake'
 alias hrcs='heroku run rails c --remote staging'
 alias hrcp='heroku run rails c --remote production'
 
+alias memcacheclear='echo 'flush_all' | nc localhost 11211'
