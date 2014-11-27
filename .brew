@@ -71,9 +71,6 @@ installcask anvil
 installcask bartender
 installcask dropbox
 installcask evernote
-
-installcask firefox
-installcask google-chrome
 installcask google-hangouts
 installcask google-drive
 installcask hipchat
