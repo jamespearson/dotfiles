@@ -86,7 +86,7 @@ installcask rubymine
 installcask skype
 installcask spotify
 installcask steam
-installcask strongvpn
+installcask strongvpn-client
 installcask sublime-text
 installcask tower
 installcask transmission
