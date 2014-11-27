@@ -29,6 +29,7 @@ brew install homebrew/dupes/grep
 # Some basics to make PHP install easier: https://github.com/josegonzalez/homebrew-php
 brew install freetype jpeg libpng gd zlib
 
+brew install v8
 
 # Install other useful binaries
 brew install ack
