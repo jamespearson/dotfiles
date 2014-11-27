@@ -96,13 +96,20 @@ installcask vlc
 installcask webstorm
 installcask xtra-finder
 
+installcask qlcolorcode
+installcask qlstephen
+installcask qlmarkdown
+installcask quicklook-json
+installcask qlprettypatch
+installcask quicklook-csv
+installcask betterzipql
+installcask webp-quicklook
+installcask suspicious-package
+installcask qlmanage
+
 brew cask install launchrocket
 
 echo "DON'T FORGET: Add '/opt/homebrew-cask/Caskroom' To Alfred's search scope (Settings > Features > Default Results"
-
-# QL Plugins
-brew update; brew upgrade brew-cask
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package && qlmanage -r
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 
