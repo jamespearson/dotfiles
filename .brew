@@ -35,9 +35,11 @@ brew install ack
 brew install git
 brew install imagemagick
 
+
 brew install android-sdk
 
 brew install redis
+brew install memcached
 
 # mkdir -p ~/Library/LaunchAgents
 #    cp /usr/local/Cellar/redis/2.4.8/homebrew.mxcl.redis.plist ~/Library/LaunchAgents/
