@@ -69,7 +69,6 @@ installcask dropbox
 installcask evernote
 installcask fantastical
 installcask firefox
-installcask firefox-aurora
 installcask google-chrome
 installcask google-hangouts
 installcask google-drive
@@ -83,7 +82,6 @@ installcask little-snitch
 installcask livereload
 installcask miro-video-converter
 installcask mou
-#installcask postgres
 installcask querious
 installcask rescuetime
 installcask rubymine
