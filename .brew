@@ -32,6 +32,7 @@ brew install freetype jpeg libpng gd zlib
 brew install v8
 
 # Install other useful binaries
+brew install gpg
 brew install ack
 brew install git
 brew install imagemagick
@@ -66,15 +67,9 @@ function installcask() {
 		echo "${@} is already installed."
 	fi
 }
-
-installcask alfred
-installcask anvil
-installcask bartender
+nstallcask bartender
 installcask dropbox
-installcask evernote
 installcask google-hangouts
-installcask google-drive
-installcask hipchat
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
@@ -83,14 +78,11 @@ installcask kaleidoscope
 installcask little-snitch
 installcask livereload
 installcask miro-video-converter
-installcask mou
-installcask querious
 installcask rescuetime
 installcask rubymine
 installcask skype
 installcask spotify
 installcask steam
-installcask strongvpn-client
 installcask sublime-text
 installcask tower
 installcask transmission
@@ -98,7 +90,6 @@ installcask transmit
 installcask virtualbox
 installcask vlc
 installcask webstorm
-installcask xtra-finder
 
 installcask qlcolorcode
 installcask qlstephen
@@ -113,8 +104,6 @@ installcask qlmanage
 
 brew cask install launchrocket
 
-echo "DON'T FORGET: Add '/opt/homebrew-cask/Caskroom' To Alfred's search scope (Settings > Features > Default Results"
-
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 
 # Link Sublime 2 in terminal
@@ -122,3 +111,16 @@ ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/lo
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -sSL https://get.rvm.io | bash
+
+
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+
+
+
+npm install -g react-native-cli
+
+brew install watchman
