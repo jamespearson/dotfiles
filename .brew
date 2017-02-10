@@ -51,8 +51,6 @@ brew install memcached
 brew install node
 
 # Install native apps
-brew tap phinze/homebrew-cask
-brew tap jimbojsb/launchrocket
 brew tap caskroom/cask
 
 brew install Caskroom/cask/java
@@ -72,11 +70,9 @@ function installcask() {
 }
 nstallcask bartender
 installcask dropbox
-installcask google-hangouts
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-installcask jewelrybox
 installcask kaleidoscope
 installcask little-snitch
 installcask livereload
@@ -84,13 +80,11 @@ installcask miro-video-converter
 installcask rescuetime
 installcask rubymine
 installcask skype
-installcask spotify
 installcask steam
 installcask sublime-text
 installcask tower
 installcask transmission
 installcask transmit
-installcask virtualbox
 installcask vlc
 installcask webstorm
 
@@ -105,7 +99,6 @@ installcask webp-quicklook
 installcask suspicious-package
 installcask qlmanage
 
-brew cask install launchrocket
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 
