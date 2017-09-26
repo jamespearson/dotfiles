@@ -85,6 +85,7 @@ function installcask() {
 installcask adobe-creative-cloud
 installcask bartender
 installcask dropbox
+installcask google-chrome
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
@@ -131,5 +132,12 @@ brew install watchman
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
+
+killall Dock
 
 
