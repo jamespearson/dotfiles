@@ -131,10 +131,13 @@ npm install -g react-native-cli
 
 brew install watchman
 
+brew install heroku/brew/heroku
+
 
 # Remove outdated versions from the cellar
 brew cleanup
 
+defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
