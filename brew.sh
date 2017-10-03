@@ -114,6 +114,7 @@ installcask betterzipql
 installcask webp-quicklook
 installcask suspicious-package
 installcask qlmanage
+installcask postman
 
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
