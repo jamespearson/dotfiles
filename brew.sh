@@ -83,9 +83,12 @@ function installcask() {
 		echo "${@} is already installed."
 	fi
 }
+
 installcask adobe-creative-cloud
+installcask android-studio
 installcask bartender
 installcask dropbox
+installcask firefox
 installcask google-chrome
 installcask imagealpha
 installcask imageoptim
@@ -95,8 +98,8 @@ installcask kaleidoscope
 installcask little-snitch
 installcask miro-video-converter
 installcask postgres
+installcask postman
 installcask rescuetime
-installcask skype
 installcask steam
 installcask sublime-text
 installcask tower
@@ -114,7 +117,7 @@ installcask betterzipql
 installcask webp-quicklook
 installcask suspicious-package
 installcask qlmanage
-installcask postman
+
 
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
