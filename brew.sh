@@ -105,7 +105,6 @@ installcask steam
 installcask sublime-text
 installcask tower
 installcask transmission
-installcask transmit
 
 
 installcask qlcolorcode
