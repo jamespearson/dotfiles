@@ -99,6 +99,7 @@ installcask little-snitch
 installcask miro-video-converter
 installcask postgres
 installcask postman
+installcase react-native-debugger
 installcask rescuetime
 installcask steam
 installcask sublime-text
