@@ -94,7 +94,6 @@ installcask google-chrome
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-installcask jetbrains-toolbox
 installcask kaleidoscope
 installcask little-snitch
 installcask miro-video-converter
