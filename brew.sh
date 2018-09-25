@@ -87,6 +87,7 @@ function installcask() {
 installcask adobe-creative-cloud
 installcask android-studio
 installcask bartender
+installcask docker
 installcask dropbox
 installcask firefox
 installcask google-chrome
