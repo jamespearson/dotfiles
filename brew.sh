@@ -54,9 +54,9 @@ brew install imagemagick@6 && brew link imagemagick@6 --force
 echo 'export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"' >> ~/.path
 
 brew install redis
-brew install memcached
 brew install yarn
 
+brew install zsh
 # mkdir -p ~/Library/LaunchAgents
 #    cp /usr/local/Cellar/redis/2.4.8/homebrew.mxcl.redis.plist ~/Library/LaunchAgents/
 #    launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
@@ -95,7 +95,6 @@ installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask kaleidoscope
-installcask little-snitch
 installcask miro-video-converter
 installcask postgres
 installcask postman
@@ -105,7 +104,7 @@ installcask steam
 installcask sublime-text
 installcask tower
 installcask transmission
-
+installcask visual-studio-code
 
 installcask qlcolorcode
 installcask qlstephen
@@ -118,6 +117,10 @@ installcask webp-quicklook
 installcask suspicious-package
 installcask qlmanage
 
+installcask shadow
+installcash pocket-casts
+
+
 
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
@@ -128,7 +131,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 
 
-curl -sSL https://get.rvm.io | bash
+#curl -sSL https://get.rvm.io | bash
 
 npm install -g react-native-cli
 
