@@ -57,23 +57,25 @@ brew install redis
 brew install yarn
 
 brew install zsh
+
+
 # mkdir -p ~/Library/LaunchAgents
 #    cp /usr/local/Cellar/redis/2.4.8/homebrew.mxcl.redis.plist ~/Library/LaunchAgents/
 #    launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 
-
-brew install node
+brew install nvm
 
 # Install native apps
 brew tap caskroom/cask
-
-brew install Caskroom/cask/java
-
 
 # Required for ImageOptim gem
 brew install https://raw.github.com/cbguder/homebrew/53ea33bab5372ea74117ace8c44aa7ea988e93c2/Library/Formula/pngout.rb
 brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush pngquant
 
+brew install rbenv
+brew install rbenv-bundler
+
+brew install Caskroom/cask/java
 brew install brew-cask
 
 function installcask() {
@@ -87,6 +89,7 @@ function installcask() {
 installcask adobe-creative-cloud
 installcask android-studio
 installcask bartender
+installcask cleanmymac
 installcask docker
 installcask dropbox
 installcask firefox
@@ -94,14 +97,18 @@ installcask google-chrome
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
+installcask hazel
 installcask kaleidoscope
-installcask miro-video-converter
+installcash pocket-casts
 installcask postgres
 installcask postman
 installcase react-native-debugger
 installcask rescuetime
+installcash rocket
+installcask shadow
 installcask steam
 installcask sublime-text
+installcask switchresx
 installcask tower
 installcask transmission
 installcask visual-studio-code
@@ -116,12 +123,6 @@ installcask betterzipql
 installcask webp-quicklook
 installcask suspicious-package
 installcask qlmanage
-
-installcask shadow
-installcash pocket-casts
-
-
-
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 
@@ -140,6 +141,9 @@ brew install watchman
 brew install heroku/brew/heroku
 
 
+brew install openssl
+brew install mysql-connector-c
+
 # Remove outdated versions from the cellar
 brew cleanup
 
@@ -150,5 +154,3 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
 
 killall Dock
-
-
