@@ -21,18 +21,6 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 
-# Install Bash 4.
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`.
-brew install bash
-brew install bash-completion2
-
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
-
 
 # Install wget with IRI support
 brew install wget --enable-iri
@@ -56,7 +44,6 @@ echo 'export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"' >> ~/.path
 brew install redis
 brew install yarn
 
-brew install zsh
 
 
 # mkdir -p ~/Library/LaunchAgents
