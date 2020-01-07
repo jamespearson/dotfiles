@@ -134,6 +134,12 @@ brew install heroku/brew/heroku
 brew install openssl
 brew install mysql-connector-c
 
+# Peanut Releated
+brew install glib
+brew install sops
+brew install vips
+
+
 # Remove outdated versions from the cellar
 brew cleanup
 
