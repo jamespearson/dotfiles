@@ -75,6 +75,7 @@ function installcask() {
 
 installcase react-native-debugger
 installcask adobe-creative-cloud
+installcask audio-hijack
 installcask android-studio
 installcask bartender
 installcask cleanmymac
