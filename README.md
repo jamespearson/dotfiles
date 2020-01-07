@@ -1,4 +1,4 @@
-# FearMediocrity's dotfiles
+# James Pearson's dotfiles
 
 ## Installation
 
