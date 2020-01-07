@@ -78,6 +78,7 @@ installcask adobe-creative-cloud
 installcask audio-hijack
 installcask android-studio
 installcask bartender
+installcask charles
 installcask cleanmymac
 installcask docker
 installcask dropbox
