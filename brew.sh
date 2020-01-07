@@ -27,10 +27,6 @@ brew install wget --enable-iri
 
 brew install ssh-copy-id
 
-# Install more recent versions of some OS X tools
-brew tap homebrew/dupes
-brew install homebrew/dupes/grep
-
 
 brew install v8
 
@@ -38,8 +34,6 @@ brew install v8
 brew install gpg
 brew install ack
 brew install git
-brew install imagemagick@6 && brew link imagemagick@6 --force
-echo 'export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"' >> ~/.path
 
 brew install redis
 brew install yarn
