@@ -73,6 +73,7 @@ function installcask() {
 	fi
 }
 
+installcase react-native-debugger
 installcask adobe-creative-cloud
 installcask android-studio
 installcask bartender
@@ -81,17 +82,16 @@ installcask docker
 installcask dropbox
 installcask firefox
 installcask google-chrome
+installcask hazel
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
-installcask hazel
 installcask kaleidoscope
-installcash pocket-casts
+installcask pocket-casts
 installcask postgres
 installcask postman
-installcase react-native-debugger
 installcask rescuetime
-installcash rocket
+installcask rocket
 installcask shadow
 installcask steam
 installcask sublime-text
@@ -100,16 +100,16 @@ installcask tower
 installcask transmission
 installcask visual-studio-code
 
-installcask qlcolorcode
-installcask qlstephen
-installcask qlmarkdown
-installcask quicklook-json
-installcask qlprettypatch
-installcask quicklook-csv
 installcask betterzipql
-installcask webp-quicklook
-installcask suspicious-package
+installcask qlcolorcode
 installcask qlmanage
+installcask qlmarkdown
+installcask qlprettypatch
+installcask qlstephen
+installcask quicklook-csv
+installcask quicklook-json
+installcask suspicious-package
+installcask webp-quicklook
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 
