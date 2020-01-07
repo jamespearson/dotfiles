@@ -89,6 +89,7 @@ installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask kaleidoscope
+installcask onecast
 installcask pocket-casts
 installcask postgres
 installcask postman
