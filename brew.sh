@@ -72,18 +72,13 @@ installcask adobe-creative-cloud
 installcask audio-hijack
 installcask android-studio
 installcask bartender
-installcask charles
 installcask cleanmymac
-installcask docker
-installcask dropbox
-installcask firefox
 installcask google-chrome
 installcask hazel
 installcask imagealpha
 installcask imageoptim
 installcask iterm2
 installcask kaleidoscope
-installcask onecast
 installcask pocket-casts
 installcask postgres
 installcask postman
@@ -97,16 +92,16 @@ installcask tower
 installcask transmission
 installcask visual-studio-code
 
-installcask betterzipql
-installcask qlcolorcode
-installcask qlmanage
-installcask qlmarkdown
-installcask qlprettypatch
-installcask qlstephen
-installcask quicklook-csv
-installcask quicklook-json
-installcask suspicious-package
-installcask webp-quicklook
+# installcask betterzipql
+# installcask qlcolorcode
+# installcask qlmanage
+# installcask qlmarkdown
+# installcask qlprettypatch
+# installcask qlstephen
+# installcask quicklook-csv
+# installcask quicklook-json
+# installcask suspicious-package
+# installcask webp-quicklook
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 
@@ -125,7 +120,6 @@ npm install -g react-native-cli
 brew install watchman
 
 brew install heroku/brew/heroku
-
 
 brew install openssl
 brew install mysql-connector-c
