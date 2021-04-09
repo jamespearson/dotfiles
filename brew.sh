@@ -91,6 +91,11 @@ installcask switchresx
 installcask tower
 installcask transmission
 installcask visual-studio-code
+installcask gpg-suite
+installcask istat-menus
+installcask soundsource
+installcask loopback
+installcask postico
 
 # installcask betterzipql
 # installcask qlcolorcode
@@ -140,3 +145,4 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
 
 killall Dock
+

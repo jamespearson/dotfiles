@@ -104,3 +104,33 @@ Suggestions/improvements
 * [Tom Ryder](http://blog.sanctum.geek.nz/) and his [dotfiles repository](https://github.com/tejr/dotfiles)
 
 * anyone who [contributed a patch](https://github.com/fearmediocrity/dotfiles/contributors) or [made a helpful suggestion](https://github.com/fearmediocrity/dotfiles/issues)
+
+
+Additional Notes:
+
+ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ 
+To setup PG gem use
+
+```
+gem install pg -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/latest/bin/pg_config
+```
+
+For Puma:
+
+bundle config build.puma --with-cflags="-Wno-error=implicit-function-declaration"
+bundle install
+
+
+sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+
+curl -sL https://sentry.io/get-cli/ | bash
+
+
+GPG_TTY=$(tty)
+export GPG_TTY
+
+
+ curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+$ sudo installer -pkg AWSCLIV2.pkg -target /
