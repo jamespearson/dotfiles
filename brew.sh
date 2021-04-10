@@ -67,7 +67,8 @@ function installcask() {
 	fi
 }
 
-installcase react-native-debugger
+installcask finicky
+installcask react-native-debugger
 installcask adobe-creative-cloud
 installcask audio-hijack
 installcask android-studio
