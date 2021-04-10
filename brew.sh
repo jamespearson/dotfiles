@@ -60,8 +60,8 @@ brew install Caskroom/cask/java
 brew install brew-cask
 
 function installcask() {
-	if brew cask info "${@}" | grep "Not installed" > /dev/null; then
-		brew cask install "${@}" --appdir="/Applications"
+	if brew info "${@}" | grep "Not installed" > /dev/null; then
+		brew install "${@}" --cask --appdir="/Applications"
 	else
 		echo "${@} is already installed."
 	fi
