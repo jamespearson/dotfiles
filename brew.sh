@@ -57,57 +57,49 @@ brew install rbenv
 brew install rbenv-bundler
 
 brew install Caskroom/cask/java
-brew install brew-cask
 
-function installcask() {
-	if brew info "${@}" | grep "Not installed" > /dev/null; then
-		brew install "${@}" --cask --appdir="/Applications"
-	else
-		echo "${@} is already installed."
-	fi
-}
 
-installcask finicky
-installcask react-native-debugger
-installcask adobe-creative-cloud
-installcask audio-hijack
-installcask android-studio
-installcask bartender
-installcask cleanmymac
-installcask google-chrome
-installcask hazel
-installcask imagealpha
-installcask imageoptim
-installcask iterm2
-installcask kaleidoscope
-installcask pocket-casts
-installcask postgres
-installcask postman
-installcask rescuetime
-installcask rocket
-installcask shadow
-installcask steam
-installcask sublime-text
-installcask switchresx
-installcask tower
-installcask transmission
-installcask visual-studio-code
-installcask gpg-suite
-installcask istat-menus
-installcask soundsource
-installcask loopback
-installcask postico
+brew install finicky
+brew install react-native-debugger
+brew install adobe-creative-cloud
+brew install audio-hijack
+brew install android-studio
+brew install bartender
+brew install cleanmymac
+brew install google-chrome
+brew install hazel
+brew install imagealpha
+brew install imageoptim
+brew install iterm2
+brew install kaleidoscope
+brew install pocket-casts
+brew install postgres-unofficial
+brew install postman
+brew install rescuetime
+brew install rocket
+brew install shadow
+brew install steam
+brew install sublime-text
+brew install switchresx
+brew install tower
+brew install transmission
+brew install visual-studio-code
+brew install gpg-suite
+brew install istat-menus
+brew install soundsource
+brew install loopback
+brew install postico
 
-# installcask betterzipql
-# installcask qlcolorcode
-# installcask qlmanage
-# installcask qlmarkdown
-# installcask qlprettypatch
-# installcask qlstephen
-# installcask quicklook-csv
-# installcask quicklook-json
-# installcask suspicious-package
-# installcask webp-quicklook
+# brew install betterzipql
+# brew install qlcolorcode
+# brew install qlmanage
+# brew install qlmarkdown
+# brew install qlprettypatch
+# brew install qlstephen
+# brew install quicklook-csv
+# brew install quicklook-json
+# brew install suspicious-package
+# brew install webp-quicklook
 
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 
