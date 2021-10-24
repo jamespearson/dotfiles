@@ -46,9 +46,6 @@ brew install yarn
 
 brew install nvm
 
-# Install native apps
-brew tap caskroom/cask
-
 # Required for ImageOptim gem
 brew install https://raw.github.com/cbguder/homebrew/53ea33bab5372ea74117ace8c44aa7ea988e93c2/Library/Formula/pngout.rb
 brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush pngquant
