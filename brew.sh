@@ -53,8 +53,6 @@ brew tap caskroom/cask
 brew install https://raw.github.com/cbguder/homebrew/53ea33bab5372ea74117ace8c44aa7ea988e93c2/Library/Formula/pngout.rb
 brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush pngquant
 
-brew install rbenv
-brew install rbenv-bundler
 
 brew install Caskroom/cask/java
 
