@@ -69,6 +69,7 @@ brew install kaleidoscope
 brew install loopback
 brew install meetingbar
 brew install microsoft-edge
+brew install mockoon
 brew install notion
 brew install postgres-unofficial
 brew install postico
