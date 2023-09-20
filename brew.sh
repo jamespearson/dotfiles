@@ -42,46 +42,43 @@ brew install nvm
 brew install https://raw.github.com/cbguder/homebrew/53ea33bab5372ea74117ace8c44aa7ea988e93c2/Library/Formula/pngout.rb
 brew install advancecomp gifsicle jhead jpegoptim jpeg optipng pngcrush pngquant
 
-
 brew install Caskroom/cask/java
 
-brew install awscli
 brew install 1password
 brew install 1password-cli
 brew install adobe-creative-cloud
-brew install alfred
+brew install android-studio
 brew install another-redis-desktop-manager
 brew install audio-hijack
-brew install awscli
-brew install bartender
-brew install notion
-brew install circleci
-brew install cmake
-brew install cleanmymac
+brew install discord
+brew install figma
 brew install finicky
+brew install flipper
 brew install google-chrome
 brew install gpg-suite
+brew install grammarly
 brew install hazel
-brew install figma
-brew install istat-menus
+brew install insomnia
 brew install iterm2
 brew install kaleidoscope
 brew install loopback
-brew install meetingbar
 brew install microsoft-edge
+brew install microsoft-teams
 brew install mockoon
 brew install notion
+brew install obs
+brew install openwebstart
 brew install postgres-unofficial
 brew install postico
-brew install postman
+brew install raycast
 brew install rescuetime
-brew install rocket
+brew install setapp
 brew install soundsource
-brew install switchresx
 brew install tower
 brew install transmission
 brew install visual-studio-code
-brew install wget
+brew install vlc
+brew install vnc-viewer
 
 brew install getsentry/tools/sentry-cli
 
@@ -89,23 +86,14 @@ defaults write com.apple.finder QLEnableTextSelection -bool true && killall Find
 
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 
-
-npm install --global git-open
+pnpm add -g git-open
 
 #curl -sSL https://get.rvm.io | bash
-
-npm install -g react-native-cli
+# wget -qO- https://get.pnpm.io/install.sh | sh -
 
 brew install watchman
 
 brew install openssl
-brew install mysql-connector-c
-
-# Peanut Releated
-brew install glib
-brew install sops
-brew install vips
-
 
 # Remove outdated versions from the cellar
 brew cleanup
@@ -117,4 +105,3 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
 
 killall Dock
-
