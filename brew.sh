@@ -54,31 +54,31 @@ brew install discord
 brew install figma
 brew install finicky
 brew install flipper
-brew install google-chrome
 brew install gpg-suite
 brew install grammarly
 brew install hazel
-brew install insomnia
 brew install iterm2
+brew install insomnia
 brew install kaleidoscope
 brew install loopback
-brew install microsoft-edge
-brew install microsoft-teams
 brew install mockoon
 brew install notion
 brew install obs
 brew install openwebstart
+brew install protonvpn
+brew install proton-drive
 brew install postgres-unofficial
 brew install postico
 brew install raycast
 brew install rescuetime
 brew install setapp
-brew install soundsource
+brew install soundsourcebrew install terminus
 brew install tower
+brew install telegram
 brew install transmission
 brew install visual-studio-code
 brew install vlc
-brew install vnc-viewer
+
 
 brew install getsentry/tools/sentry-cli
 
@@ -94,6 +94,7 @@ pnpm add -g git-open
 brew install watchman
 
 brew install openssl
+brew install openssl@1.1
 
 # Remove outdated versions from the cellar
 brew cleanup
@@ -105,3 +106,5 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-t
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}';
 
 killall Dock
+
+# rvm install ruby-3.3.0 --with-openssl-dir=/opt/homebrew/opt/openssl@1.1
