@@ -61,6 +61,7 @@ brew install iterm2
 brew install insomnia
 brew install kaleidoscope
 brew install loopback
+brew install meetingbar
 brew install mockoon
 brew install notion
 brew install obs
@@ -72,7 +73,8 @@ brew install postico
 brew install raycast
 brew install rescuetime
 brew install setapp
-brew install soundsourcebrew install terminus
+brew install soundsource
+brew install terminus
 brew install tower
 brew install telegram
 brew install transmission
